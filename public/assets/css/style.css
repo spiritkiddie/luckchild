@@ -562,6 +562,11 @@ fieldset {
 
 .work-inner .mix {
     display: none;
+    padding: 0;
+}
+
+.work-inner button {
+    margin-top: 15px;
 }
 
 ul.work {
@@ -614,9 +619,9 @@ ul.work li.active {
     position: relative;
     float: left;
     overflow: hidden;
-    min-width: 320px;
+    /* min-width: 320px;
     max-width: 480px;
-    max-height: 360px;
+    max-height: 360px; */
     width: 100%;
     height: auto;
     text-align: center;
@@ -1196,7 +1201,7 @@ a.call-to-more {
     box-shadow: none;
     margin-bottom: 10px;
     padding: 17px 7px 14px 15px;
-    border: 1px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -1294,9 +1299,12 @@ a.call-to-more {
 }
 
 .footer-text h6 {
-    text-transform: capitalize;
-    color: #fff;
+    color: #8c8c8c;
     line-height: 25px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.modal-footer {
+    clear: both;
 }
